@@ -1,0 +1,14 @@
+#!/usr/bin/env mkb
+# Builder mkb file for the calendar extension on iphone
+
+platform IPHONE
+
+options
+{
+    lib
+    output-name="lib/iphone/libcalendar.a"
+    output-name-debug="lib/iphone/libcalendar_d.a"
+}
+define S3E_BUILD_EXT
+
+subproject calendar_build

@@ -1,0 +1,11 @@
+include:
+
+#include <s3eTypes.h>
+
+functions:
+
+/*
+ * Helloworld extension function 1
+ */
+void createEvent(const char * title, const char * startDate, const char * endDate, const char *  notes, const char * location,   int alarmMinutes)
+
