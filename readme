@@ -1,0 +1,11 @@
+The IOS Calendar extension provides the ability to write events to the IOS Calendar.
+
+To use it, download calendar.zip and unpack it in your extensions folder
+
+To use, call createEvent().
+
+The following creates an event at 13:45 on 1st January 2011, with a reminder 15 minutes before it begins.
+
+#include "calendar.h"
+createEvent("this is a test event", "2011-01-01 13:45:00", "2011-01-01 14:45:00", "this is the location", 15);
+	
